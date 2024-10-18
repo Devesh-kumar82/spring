@@ -5,7 +5,7 @@ FROM maven:3.8.1-openjdk-17
 WORKDIR /OutboundCRM/
 
 # Copy the Maven project files to the container
-COPY . /
+COPY . .
 
 # Install the dependencies and build the project
 #RUN mvn clean install -DskipTests
